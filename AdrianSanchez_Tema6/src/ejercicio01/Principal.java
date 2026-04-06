@@ -5,10 +5,12 @@ import utilidades.Leer;
 public class Principal {
 
 	public static void main(String[] args) {
-		int opcion, num;
+		int opcion = 0, num;
 		double num1, num2, operacion;
 
 		do {
+			try {
+				
 			System.out.println("-------------------------------------");
 			System.out.println("| Bienvenido a la MINI CALCULADORA  |");
 			System.out.println("-------------------------------------");
@@ -75,7 +77,13 @@ public class Principal {
 			default:
 				System.out.println(" Opción no válida, intenta de nuevo.\n");
 			}
-
+			} catch (NumberFormatException n) {
+				System.out.println("Escriba el número sin letras ");
+			} catch (ArithmeticException ar) {
+				System.out.println("No se puede dividir entre 0");
+			} catch (RuntimeException e) {
+				System.out.println("Error inesperado");
+			}
 		} while (opcion != 6);
 	}
 }
