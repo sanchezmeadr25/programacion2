@@ -1,4 +1,4 @@
-package ejemplo01;
+/*package ejemplo01;
 
 import utilidades.Leer;
 
@@ -30,7 +30,7 @@ public class Principal {
                     num1 = Leer.datoDouble();
                     System.out.print("Introduce el segundo número: ");
                     num2 = Leer.datoDouble();
-                    resultado = Operaciones.sumar(num1, num2);
+                    //resultado = Operaciones.sumar(num1, num2);
                     System.out.printf("Resultado: %.2f\n", resultado);
                     break;
 
@@ -39,7 +39,7 @@ public class Principal {
                     num1 = Leer.datoDouble();
                     System.out.print("Introduce el segundo número: ");
                     num2 = Leer.datoDouble();
-                    resultado = Operaciones.restar(num1, num2);
+                    //resultado = Operaciones.restar(num1, num2);
                     System.out.printf("Resultado: %.2f\n", resultado);
                     break;
 
@@ -48,7 +48,7 @@ public class Principal {
                     num1 = Leer.datoDouble();
                     System.out.print("Introduce el segundo número: ");
                     num2 = Leer.datoDouble();
-                    resultado = Operaciones.multiplicar(num1, num2);
+                    //resultado = Operaciones.multiplicar(num1, num2);
                     System.out.printf("Resultado: %.2f\n", resultado);
                     break;
 
@@ -57,21 +57,21 @@ public class Principal {
                     num1 = Leer.datoDouble();
                     System.out.print("Introduce el divisor: ");
                     num2 = Leer.datoDouble();
-                    resultado = Operaciones.dividir(num1, num2); // puede lanzar excepción
+                   // resultado = Operaciones.dividir(num1, num2); // puede lanzar excepción
                     System.out.printf("Resultado: %.2f\n", resultado);
                     break;
 
                 case 5:
                     System.out.print("Introduce un número entero: ");
                     num = Leer.datoInt();
-                    if (Operaciones.esPar(num)) {
+                   // if (Operaciones.esPar(num)) {
                         System.out.printf("El número %d es par.\n", num);
-                    } else {
+                    //} else {
                         System.out.printf("El número %d es impar.\n", num);
                     }
                     break;
 
-                case 6:
+               case 6:
                     System.out.println("Saliendo del programa...");
                     break;
 
@@ -89,4 +89,4 @@ public class Principal {
 
         } while (opcion != 6);
     }
-}
+}*/
